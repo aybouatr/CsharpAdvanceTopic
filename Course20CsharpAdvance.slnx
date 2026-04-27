@@ -1,4 +1,5 @@
 <Solution>
-  <Project Path="Course20CsharpAdvance/Course20CsharpAdvance.csproj" />
-  <Project Path="SimpleEventWithParameter/SimpleEventWithParameter.csproj" />
+  <Project Path="Course20CsharpAdvance/Course20CsharpAdvance.csproj" Id="11aed92b-c094-48d2-b04b-405910e38345" />
+  <Project Path="EventConsoleAppFromScratc/EventConsoleAppFromScratc.csproj" Id="d3043f02-1b5e-44c4-bbd0-0e178a544d3c" />
+  <Project Path="SimpleEventWithParameter/SimpleEventWithParameter.csproj" Id="99382379-58df-4760-9224-5f547736cc81" />
 </Solution>
