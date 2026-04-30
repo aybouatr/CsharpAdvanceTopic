@@ -6,5 +6,6 @@
   <Project Path="FuncDelegation/FuncDelegation.csproj" Id="791e2ca8-cc3e-454a-98d5-e5a89c1dc88a" />
   <Project Path="MulticastDelegate/MulticastDelegate.csproj" Id="400f57df-96c4-48a3-a21c-814e640ffd95" />
   <Project Path="New Order Event/New Order Event.csproj" Id="91284a6f-c234-413d-9437-bfcae0d59802" />
+  <Project Path="PredicateDelegate/PredicateDelegate.csproj" Id="cfea77a1-b6e8-4ae4-8b62-b490f293f8f9" />
   <Project Path="SimpleEventWithParameter/SimpleEventWithParameter.csproj" Id="99382379-58df-4760-9224-5f547736cc81" />
 </Solution>
