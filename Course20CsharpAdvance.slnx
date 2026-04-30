@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Course20CsharpAdvance/Course20CsharpAdvance.csproj" Id="11aed92b-c094-48d2-b04b-405910e38345" />
+  <Project Path="DelagationsLogger/DelagationsLogger.csproj" Id="ed53b101-8cd1-4241-b4a0-6d611fa6a34d" />
   <Project Path="EventConsoleAppFromScratc/EventConsoleAppFromScratc.csproj" Id="d3043f02-1b5e-44c4-bbd0-0e178a544d3c" />
   <Project Path="New Order Event/New Order Event.csproj" Id="91284a6f-c234-413d-9437-bfcae0d59802" />
   <Project Path="SimpleEventWithParameter/SimpleEventWithParameter.csproj" Id="99382379-58df-4760-9224-5f547736cc81" />
