@@ -1,0 +1,9 @@
+
+==========================================================> Serialization || Deserialization <====================================================
+
+
+==> when i have opject and i want send or save can use serialization to convert the object into a format that can be easily stored or transmitted. 
+     In C#, you can use various serialization techniques such as JSON, XML, or binary serialization.
+---> labrary : System.Text.Json, Newtonsoft.Json, System.Xml.Serialization, BinaryFormatter (not recommended for security reasons)
+---> systtem.Runtime.Serialization.Formatters.Binary.BinaryFormatter is not recommended for security reasons. It can lead to vulnerabilities if used with untrusted data.
+

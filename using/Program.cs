@@ -13,6 +13,12 @@ namespace UsingExample
         {
             hh.WriteLine("Using Example this result squre for 16 = {0}", Sqrt(16));
             hh.WriteLine("Hello, World!");
+
+            using(var file = new StreamReader("file.txt"))
+            {
+                string content = file.ReadToEnd();
+                hh.WriteLine(content);
+            }
         }
     }
 }
