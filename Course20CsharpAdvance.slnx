@@ -13,6 +13,7 @@
   <Project Path="New Order Event/New Order Event.csproj" Id="91284a6f-c234-413d-9437-bfcae0d59802" />
   <Project Path="Nullable/Nullable.csproj" Id="30573b35-77c5-4916-b64f-13c1368a2b43" />
   <Project Path="PredicateDelegate/PredicateDelegate.csproj" Id="cfea77a1-b6e8-4ae4-8b62-b490f293f8f9" />
+  <Project Path="Reflection/Reflection.csproj" Id="85a93fc2-92a1-422f-b337-e7bf2f9eb38a" />
   <Project Path="SerializationExample/SerializationExample.csproj" Id="961e42ed-bd55-4302-9aa3-9de86b265279" />
   <Project Path="SimpleEventWithParameter/SimpleEventWithParameter.csproj" Id="99382379-58df-4760-9224-5f547736cc81" />
   <Project Path="using/UsingStatement.csproj" Id="354b67c4-14f7-46f4-8a31-34712b6f9e41" />

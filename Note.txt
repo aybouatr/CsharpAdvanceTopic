@@ -27,3 +27,9 @@ we have types of attributes :
 5. -> [DataContract] and [DataMember] : These attributes are used in the context of data serialization, particularly with the DataContractSerializer. 
                                       [DataContract] is applied to a class to indicate
 
+
+==========================================================> Reflection <====================================================
+
+
+1. -> Reflection is a powerful feature in C# that allows you to inspect and manipulate the metadata of types at runtime.
+      It provides the ability to access information about assemblies, modules, types, and members.
