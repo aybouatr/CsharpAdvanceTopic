@@ -13,17 +13,17 @@
 
 we have types of attributes :
 
-5. -> [Conditional] : This attribute is used to specify that a method call or attribute should be included or omitted based on a specified compilation symbol. It allows conditional compilation of code blocks.
+1. -> [Conditional] : This attribute is used to specify that a method call or attribute should be included or omitted based on a specified compilation symbol. It allows conditional compilation of code blocks.
 
-1. -> [Obsolete] : This attribute is used to mark a method, class, or property as obsolete. It indicates that the marked element should not be used and may be removed in future versions.
+2. -> [Obsolete] : This attribute is used to mark a method, class, or property as obsolete. It indicates that the marked element should not be used and may be removed in future versions.
                    You can provide a message to inform developers about the reason for obsolescence.
 
-2. -> [Serializable] : This attribute is used to indicate that a class can be serialized. It allows instances of the class to be converted into a format that can be easily stored or transmitted.
+3. -> [Serializable] : This attribute is used to indicate that a class can be serialized. It allows instances of the class to be converted into a format that can be easily stored or transmitted.
                        When a class is marked with [Serializable], all its fields (including private ones) are included in the serialization process.
 
-3. -> [NonSerialized] : This attribute is used to indicate that a field should not be serialized. It is applied to fields within a class that is marked with [Serializable].
+4. -> [NonSerialized] : This attribute is used to indicate that a field should not be serialized. It is applied to fields within a class that is marked with [Serializable].
                          When a field is marked with [NonSerialized], it will be excluded from the serialization process, and its value will not be saved or transmitted.
 
-4. -> [DataContract] and [DataMember] : These attributes are used in the context of data serialization, particularly with the DataContractSerializer. 
+5. -> [DataContract] and [DataMember] : These attributes are used in the context of data serialization, particularly with the DataContractSerializer. 
                                       [DataContract] is applied to a class to indicate
 

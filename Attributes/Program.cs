@@ -9,7 +9,7 @@ namespace Attributes
         {
         
 
-            [Conditional("DEBUG")]
+            [Conditional("Condition")]
             public void DEBUGMethod()
             {
                 Console.WriteLine("This is a DEBUG method in MyAttribute.");
@@ -20,7 +20,13 @@ namespace Attributes
                 Console.WriteLine("This is a normal method in MyAttribute.");
             }
 
-          
+            [Obsolete("This method is obsolete. Use another method instead.")]
+            public void MethodAbsolute()
+            {
+                Console.WriteLine("This method will always be called.");
+            }
+
+
         }
 
 
@@ -32,6 +38,7 @@ namespace Attributes
 
             myAttr.DEBUGMethod();
             myAttr.NormalMethod();
+            myAttr.MethodAbsolute();
 
 
         }
