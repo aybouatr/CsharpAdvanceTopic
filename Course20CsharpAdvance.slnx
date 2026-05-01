@@ -3,6 +3,7 @@
     <File Path="Note.txt" />
   </Folder>
   <Project Path="ActionDelegation/ActionDelegation.csproj" Id="12abef34-7d65-4ef1-82f7-008faad8f2a3" />
+  <Project Path="Attributes/Attributes.csproj" Id="7ff49d35-d902-42b0-91db-4af7e88019fc" />
   <Project Path="Course20CsharpAdvance/Course20CsharpAdvance.csproj" Id="11aed92b-c094-48d2-b04b-405910e38345" />
   <Project Path="DelagationsLogger/DelagationsLogger.csproj" Id="ed53b101-8cd1-4241-b4a0-6d611fa6a34d" />
   <Project Path="EventConsoleAppFromScratc/EventConsoleAppFromScratc.csproj" Id="d3043f02-1b5e-44c4-bbd0-0e178a544d3c" />
