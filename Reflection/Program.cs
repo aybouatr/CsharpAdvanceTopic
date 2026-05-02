@@ -108,13 +108,19 @@ namespace Reflection
                 Console.WriteLine("====================================== This MethodInfo =============================================\n\n");
 
 
-                Type[] paramaters  = new Type[] { typeof(decimal) };
+                //Type[] paramaters  = new Type[] { typeof(decimal) };
 
-                MethodInfo method = BankAccountType.GetMethod("Withdraw");
-                method.Invoke(account, new object[] { 100m });
+                //MethodInfo method = BankAccountType.GetMethod("Withdraw");
+                //method.Invoke(account, new object[] { 100m });
 
-                Console.WriteLine(account.Withdraw(50m));
-                Console.WriteLine("Method Name: {0}, Return Type: {1}", method.Name, method.ReturnType);
+                //Console.WriteLine(account.Withdraw(50m));
+                //Console.WriteLine("Method Name: {0}, Return Type: {1}", method.Name, method.ReturnType);
+
+                Object myBankAccount = Activator.CreateInstance(BankAccountType);
+
+                BankAccountType.GetMethod("Oposite").Invoke(myBankAccount, new object[] { 1000m });
+
+                    Console.WriteLine("Balance after Oposite: {0}", BankAccountType.GetMethod("Withdraw").Invoke(myBankAccount, new object[] { 100m }));
 
 
 
