@@ -21,4 +21,5 @@
   <Project Path="SimpleEventWithParameter/SimpleEventWithParameter.csproj" Id="99382379-58df-4760-9224-5f547736cc81" />
   <Project Path="using/UsingStatement.csproj" Id="354b67c4-14f7-46f4-8a31-34712b6f9e41" />
   <Project Path="usingTcpClient/usingTcpClient.csproj" Id="5b4ce140-9b97-4a8e-8395-da2585e72edb" />
+  <Project Path="WindowsRegistry/WindowsRegistry.csproj" Id="f7db3d53-c60b-4cac-a7dc-b07373079eb0" />
 </Solution>

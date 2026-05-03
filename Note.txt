@@ -73,3 +73,20 @@ we have types of attributes :
 
    -> The main difference between mutable and immutable types is that mutable types can be changed, while immutable types cannot. 
       This has implications for how you work with these types in your code, especially when it comes to concurrency and thread safety.
+
+
+=========================================================> Generics <====================================================
+
+
+1. -> Generics in C# allow you to define classes, methods, and data structures that can work with any data type while providing type safety at compile time. 
+      They enable you to create reusable code that can operate on different types without sacrificing performance.
+   
+   -> With generics, you can create a single class or method that can handle multiple data types, eliminating the need for code duplication. 
+      This promotes code reusability and maintainability.
+
+   -> Generics are commonly used in collections (e.g., List<T>, Dictionary<TKey, TValue>), as well as in custom classes and methods that require flexibility in handling different types of data.
+
+
+=========================================================> Windows Registry <====================================================
+
+
