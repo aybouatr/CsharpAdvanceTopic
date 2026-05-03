@@ -8,8 +8,10 @@
   <Project Path="DelagationsLogger/DelagationsLogger.csproj" Id="ed53b101-8cd1-4241-b4a0-6d611fa6a34d" />
   <Project Path="EventConsoleAppFromScratc/EventConsoleAppFromScratc.csproj" Id="d3043f02-1b5e-44c4-bbd0-0e178a544d3c" />
   <Project Path="FuncDelegation/FuncDelegation.csproj" Id="791e2ca8-cc3e-454a-98d5-e5a89c1dc88a" />
+  <Project Path="Generics/Generics.csproj" Id="4ad07b9f-bc63-446a-9187-46db75f7fad3" />
   <Project Path="LambdaExpression/LambdaExpression.csproj" Id="17fc168a-584c-4be2-b950-8e65e3696430" />
   <Project Path="MulticastDelegate/MulticastDelegate.csproj" Id="400f57df-96c4-48a3-a21c-814e640ffd95" />
+  <Project Path="MutableAndImmutableTypes/MutableAndImmutableTypes.csproj" Id="191e1940-6216-4b76-b079-e58413148b16" />
   <Project Path="New Order Event/New Order Event.csproj" Id="91284a6f-c234-413d-9437-bfcae0d59802" />
   <Project Path="Nullable/Nullable.csproj" Id="30573b35-77c5-4916-b64f-13c1368a2b43" />
   <Project Path="PredicateDelegate/PredicateDelegate.csproj" Id="cfea77a1-b6e8-4ae4-8b62-b490f293f8f9" />

@@ -42,3 +42,34 @@ we have types of attributes :
       - Invoking methods and accessing properties/fields dynamically
       - Implementing custom serialization/deserialization logic
       - Building frameworks and libraries that require dynamic behavior
+
+=========================================================> Custom Attributes <====================================================
+
+
+1. -> Custom attributes are user-defined attributes that you can create to add metadata to your code. 
+      They allow you to define your own attributes with specific properties and behavior.
+
+   -> To create a custom attribute, you need to define a class that inherits from the System.Attribute class. 
+      You can then apply this custom attribute to classes, methods, properties, or other code elements.
+
+   -> Custom attributes can have properties and fields that store additional information. 
+      You can access this information at runtime using reflection.
+
+   -> Custom attributes are commonly used for various purposes, such as:
+      - Providing additional information about code elements
+      - Implementing custom validation logic
+      - Controlling the behavior of frameworks and libraries
+      - Enhancing code readability and maintainability
+
+
+=========================================================> Mutable types VS Immutable Types <====================================================
+
+
+1. -> Mutable types are types whose state can be modified after they are created. 
+      Examples of mutable types in C# include classes, arrays, and collections.
+
+   -> Immutable types are types whose state cannot be modified after they are created. 
+      Examples of immutable types in C# include strings, tuples, and records.
+
+   -> The main difference between mutable and immutable types is that mutable types can be changed, while immutable types cannot. 
+      This has implications for how you work with these types in your code, especially when it comes to concurrency and thread safety.
