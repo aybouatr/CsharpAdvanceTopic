@@ -159,3 +159,8 @@ we have types of attributes :
     
     -> Symmetric encryption algorithms (e.g., AES, DES) use the same key for both encryption and decryption, while asymmetric encryption algorithms (e.g., RSA) use a pair of keys (public and private) for encryption and decryption.
     
+    -> asymmetric encryption is often used for secure communication and digital signatures, while symmetric encryption is typically used for encrypting large amounts of data due to its efficiency.
+    
+    -> diff between symmetric and asymmetric encryption:
+       - Symmetric encryption uses the same key for both encryption and decryption, while asymmetric encryption uses a pair of keys (public and private).
+       - Symmetric encryption is faster than asymmetric encryption, making it suitable for encrypting large amounts of data, while asymmetric encryption is typically used for secure communication and digital signatures.
