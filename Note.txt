@@ -147,3 +147,15 @@ we have types of attributes :
         - Converting the StringBuilder to a string using the ToString method
     -> Using StringBuilder can significantly improve performance when working with large or complex string manipulations in your applications.
 
+    ======================================================> Cryptography <====================================================
+
+    1. -> Cryptography is the practice of securing information by transforming it into an unreadable format, known as encryption,
+          and then converting it back to its original form, known as decryption. 
+          It is used to protect sensitive data from unauthorized access and ensure confidentiality, integrity, and authenticity.
+    
+    -> In C#, you can use the System.Security.Cryptography namespace, which provides a variety of classes for implementing cryptographic operations, such as hashing, encryption, and digital signatures.
+    
+    -> hashing algorithms (e.g., SHA256, MD5) are used to generate a fixed-size hash value from input data, which can be used for data integrity verification.
+    
+    -> Symmetric encryption algorithms (e.g., AES, DES) use the same key for both encryption and decryption, while asymmetric encryption algorithms (e.g., RSA) use a pair of keys (public and private) for encryption and decryption.
+    

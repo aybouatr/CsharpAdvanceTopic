@@ -6,6 +6,7 @@
   <Project Path="App_Confiq/App_Confiq.csproj" Id="5cd4b3fe-78a5-4214-8d3e-142d8cfc5727" />
   <Project Path="Attributes/Attributes.csproj" Id="7ff49d35-d902-42b0-91db-4af7e88019fc" />
   <Project Path="Course20CsharpAdvance/Course20CsharpAdvance.csproj" Id="11aed92b-c094-48d2-b04b-405910e38345" />
+  <Project Path="Cryptography/Cryptography.csproj" Id="f829de6b-8097-4522-823c-e257d5c356ab" />
   <Project Path="DelagationsLogger/DelagationsLogger.csproj" Id="ed53b101-8cd1-4241-b4a0-6d611fa6a34d" />
   <Project Path="EventConsoleAppFromScratc/EventConsoleAppFromScratc.csproj" Id="d3043f02-1b5e-44c4-bbd0-0e178a544d3c" />
   <Project Path="EventLog/EventLog.csproj" Id="ada52ba9-9d5d-4dd3-9503-583cb3e5d822" />
