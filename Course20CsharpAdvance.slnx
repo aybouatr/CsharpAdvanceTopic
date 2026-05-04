@@ -3,10 +3,12 @@
     <File Path="Note.txt" />
   </Folder>
   <Project Path="ActionDelegation/ActionDelegation.csproj" Id="12abef34-7d65-4ef1-82f7-008faad8f2a3" />
+  <Project Path="App_Confiq/App_Confiq.csproj" Id="5cd4b3fe-78a5-4214-8d3e-142d8cfc5727" />
   <Project Path="Attributes/Attributes.csproj" Id="7ff49d35-d902-42b0-91db-4af7e88019fc" />
   <Project Path="Course20CsharpAdvance/Course20CsharpAdvance.csproj" Id="11aed92b-c094-48d2-b04b-405910e38345" />
   <Project Path="DelagationsLogger/DelagationsLogger.csproj" Id="ed53b101-8cd1-4241-b4a0-6d611fa6a34d" />
   <Project Path="EventConsoleAppFromScratc/EventConsoleAppFromScratc.csproj" Id="d3043f02-1b5e-44c4-bbd0-0e178a544d3c" />
+  <Project Path="EventLog/EventLog.csproj" Id="ada52ba9-9d5d-4dd3-9503-583cb3e5d822" />
   <Project Path="FuncDelegation/FuncDelegation.csproj" Id="791e2ca8-cc3e-454a-98d5-e5a89c1dc88a" />
   <Project Path="Generics/Generics.csproj" Id="4ad07b9f-bc63-446a-9187-46db75f7fad3" />
   <Project Path="LambdaExpression/LambdaExpression.csproj" Id="17fc168a-584c-4be2-b950-8e65e3696430" />

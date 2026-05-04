@@ -8,7 +8,9 @@ namespace WindowsRegistry
         static void Main(string[] args)
         {
             // Specify the Registry key and path
-            string keyPath = @"HKEY_CURRENT_USER\SOFTWARE\YourSoftware";
+            string keyPath = @"HKEY_LOCAL_MACHINE\SOFTWARE\YourSoftware";
+            //string keyPath = @"HKEY_CURRENT_USER\SOFTWARE\YourSoftware";
+
             string valueName = "YourValueName";
             string valueData = "YourValueData";
 
