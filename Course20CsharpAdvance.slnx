@@ -14,9 +14,11 @@
   <Project Path="Generics/Generics.csproj" Id="4ad07b9f-bc63-446a-9187-46db75f7fad3" />
   <Project Path="LambdaExpression/LambdaExpression.csproj" Id="17fc168a-584c-4be2-b950-8e65e3696430" />
   <Project Path="MulticastDelegate/MulticastDelegate.csproj" Id="400f57df-96c4-48a3-a21c-814e640ffd95" />
+  <Project Path="Multithreading/Multithreading.csproj" Id="982e6857-7cfa-4305-8f72-ee75af0c807a" />
   <Project Path="MutableAndImmutableTypes/MutableAndImmutableTypes.csproj" Id="191e1940-6216-4b76-b079-e58413148b16" />
   <Project Path="New Order Event/New Order Event.csproj" Id="91284a6f-c234-413d-9437-bfcae0d59802" />
   <Project Path="Nullable/Nullable.csproj" Id="30573b35-77c5-4916-b64f-13c1368a2b43" />
+  <Project Path="OverrloadingOperator/OverrloadingOperator.csproj" Id="5d2bc520-abb4-414d-b58a-63aaea468645" />
   <Project Path="PredicateDelegate/PredicateDelegate.csproj" Id="cfea77a1-b6e8-4ae4-8b62-b490f293f8f9" />
   <Project Path="Reflection/Reflection.csproj" Id="85a93fc2-92a1-422f-b337-e7bf2f9eb38a" />
   <Project Path="ReflectionwithCustomAttributes/ReflectionwithCustomAttributes.csproj" Id="8769011f-5ed5-4520-9916-8c7d71ac2e37" />

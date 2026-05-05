@@ -164,3 +164,28 @@ we have types of attributes :
     -> diff between symmetric and asymmetric encryption:
        - Symmetric encryption uses the same key for both encryption and decryption, while asymmetric encryption uses a pair of keys (public and private).
        - Symmetric encryption is faster than asymmetric encryption, making it suitable for encrypting large amounts of data, while asymmetric encryption is typically used for secure communication and digital signatures.
+
+
+  ======================================================> ovveriding operator <====================================================
+
+  1. -> Operator overloading is a feature in C# that allows you to define custom behavior for standard operators (e.g., +, -, *, /) when applied to instances of your classes or structs. 
+        This can make your code more intuitive and easier to read when working with custom types.
+    -> To overload an operator, you need to define a static method in your class or struct with the appropriate signature for the operator you want to overload. 
+       The method should return the result of the operation and take the necessary parameters.
+    -> Common operators that can be overloaded include:
+       - Arithmetic operators: +, -, *, /, %
+       - Comparison operators: ==, !=, <, >, <=, >=
+       - Logical operators: &&, ||, !
+       - Increment and decrement operators: ++, --
+    -> When overloading operators, it is important to ensure that the behavior is consistent with the expected semantics of the operator and that it does not lead to confusion or unintended consequences in your code.
+    
+  ======================================================> multithreading && parallel programming && thread vs process <====================================================
+   
+   process : A process is an instance of a program that is being executed. It has its own memory space and resources, 
+              and multiple processes can run concurrently on a system.
+   
+   thread : A thread is a unit of execution within a process. It shares the same memory space and resources as other threads in the same process,
+             allowing for concurrent execution of tasks within a single process.
+   
+   process vs thread : A process is an independent program with its own memory space, while a thread is a smaller unit of execution within a process that shares the same memory space.
+
