@@ -2,10 +2,11 @@
 using System.Net;
 using System.Threading;
 
-namespace Multithreading
+namespace AsynchronousSynchronousMultithreading
 {
     internal class Program
     {
+
         static public void MyThreadMethod()
 
         {
@@ -24,6 +25,21 @@ namespace Multithreading
                 Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} is running iteration {i} Name : {arg}");
                 Thread.Sleep(1000); // Simulate work by sleeping for 1 second
             }
+        }
+
+        static public void FinishDoeloadAmazon()
+        {
+            Console.WriteLine("Finished downloading from Amazon");
+        }
+
+        static public void FinishDoeloadCNN()
+        {
+            Console.WriteLine("Finished downloading from CNN");
+        }
+
+        static public void FinishDoeloadProgrammingAdvice()
+        {
+            Console.WriteLine("Finished downloading from Programming Advice");
         }
 
         static void Main(string[] args)
@@ -68,19 +84,23 @@ namespace Multithreading
             {
                 Console.WriteLine("==========================Web Pages using Multi Threading =================================================\n");
 
-                Thread t = new Thread(() => DownloadDataFromWeb("http://www.cnn.com"));
+                Thread t = new Thread(() => DownloadDataFromWeb("http://www.cnn.com", FinishDoeloadCNN));
                 t.Start();
 
-                Thread t1 = new Thread(() => DownloadDataFromWeb("http://www.Amazon.com"));
+                Thread t1 = new Thread(() => DownloadDataFromWeb("http://www.Amazon.com", FinishDoeloadAmazon));
                 t1.Start();
 
-                Thread t2 = new Thread(() => DownloadDataFromWeb("http://www.programmingAdvice.com"));
+                Thread t2 = new Thread(() => DownloadDataFromWeb("http://www.programmingAdvice.com", FinishDoeloadProgrammingAdvice));
                 t2.Start();
+
+                t.Join();
+                t1.Join();
+                t2.Join();
 
             }
         }
 
-        static public void DownloadDataFromWeb(string url)
+        static public void DownloadDataFromWeb(string url,Action callback)
         {
             try
             {
@@ -91,13 +111,14 @@ namespace Multithreading
                     Thread.Sleep(2000); // simulate delay
                     string content = client.DownloadString(url);
 
-                    Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} finished downloading from {url} Content lenght = {content.Length}");
+                    callback?.Invoke();
                 }
             }
             catch (WebException ex)
             {
                 Console.WriteLine($"Error for {url}: {ex.Message}");
             }
+
         }
     }
 }

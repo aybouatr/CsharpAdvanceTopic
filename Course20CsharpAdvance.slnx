@@ -4,6 +4,7 @@
   </Folder>
   <Project Path="ActionDelegation/ActionDelegation.csproj" Id="12abef34-7d65-4ef1-82f7-008faad8f2a3" />
   <Project Path="App_Confiq/App_Confiq.csproj" Id="5cd4b3fe-78a5-4214-8d3e-142d8cfc5727" />
+  <Project Path="AsynchronousSynchronousMultithreading/AsynchronousSynchronousMultithreading.csproj" Id="8e8c2fd0-1d95-4174-94ee-f89d612888ba" />
   <Project Path="Attributes/Attributes.csproj" Id="7ff49d35-d902-42b0-91db-4af7e88019fc" />
   <Project Path="Course20CsharpAdvance/Course20CsharpAdvance.csproj" Id="11aed92b-c094-48d2-b04b-405910e38345" />
   <Project Path="Cryptography/Cryptography.csproj" Id="f829de6b-8097-4522-823c-e257d5c356ab" />
@@ -19,12 +20,18 @@
   <Project Path="New Order Event/New Order Event.csproj" Id="91284a6f-c234-413d-9437-bfcae0d59802" />
   <Project Path="Nullable/Nullable.csproj" Id="30573b35-77c5-4916-b64f-13c1368a2b43" />
   <Project Path="OverrloadingOperator/OverrloadingOperator.csproj" Id="5d2bc520-abb4-414d-b58a-63aaea468645" />
+  <Project Path="ParallelForMultitreading/ParallelForMultitreading.csproj" Id="3cc55261-9996-4eaf-ad1d-a7150bae5edb" />
   <Project Path="PredicateDelegate/PredicateDelegate.csproj" Id="cfea77a1-b6e8-4ae4-8b62-b490f293f8f9" />
   <Project Path="Reflection/Reflection.csproj" Id="85a93fc2-92a1-422f-b337-e7bf2f9eb38a" />
   <Project Path="ReflectionwithCustomAttributes/ReflectionwithCustomAttributes.csproj" Id="8769011f-5ed5-4520-9916-8c7d71ac2e37" />
   <Project Path="SerializationExample/SerializationExample.csproj" Id="961e42ed-bd55-4302-9aa3-9de86b265279" />
   <Project Path="SimpleEventWithParameter/SimpleEventWithParameter.csproj" Id="99382379-58df-4760-9224-5f547736cc81" />
   <Project Path="StringBuilder/StringBuilder.csproj" Id="b289aff1-b4ca-4902-ac01-151240033b1f" />
+  <Project Path="TaskClassWithCallBackEvent/TaskClassWithCallBackEvent.csproj" Id="d3c139b0-162e-4e94-a81d-7b0db5825a4c" />
+  <Project Path="TaskFactory/TaskFactorY.csproj" Id="5cbaba18-960f-45b3-9428-f1d10907abde" />
+  <Project Path="TaskRun/TaskRun.csproj" Id="5ffd76b6-21df-4a9e-a5af-d8815680eaac" />
+  <Project Path="ThreadSynchronization/ThreadSynchronization.csproj" Id="b8df3dde-f4db-4f44-a2de-b2b4dbaf949e" />
+  <Project Path="TrafficLightProjectIdea/TrafficLightProjectIdea.csproj" Id="15cf40ce-59c0-43a3-87bc-2dfc80b8f015" />
   <Project Path="using/UsingStatement.csproj" Id="354b67c4-14f7-46f4-8a31-34712b6f9e41" />
   <Project Path="usingTcpClient/usingTcpClient.csproj" Id="5b4ce140-9b97-4a8e-8395-da2585e72edb" />
   <Project Path="WindowsRegistry/WindowsRegistry.csproj" Id="f7db3d53-c60b-4cac-a7dc-b07373079eb0" />

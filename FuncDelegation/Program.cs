@@ -14,7 +14,6 @@
 
         public static void Method2(string message)
         {
-
             Console.WriteLine("Method2: " + message);
 
         }

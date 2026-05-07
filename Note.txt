@@ -1,4 +1,20 @@
 
+==========================================================>Delegates <====================================================
+
+1. -> A delegate is a type that represents references to methods with a specific parameter list and return type. 
+      It allows you to encapsulate a method as an object, enabling you to pass methods as parameters, store them in variables, and invoke them dynamically.
+   
+   -> Delegates are commonly used for event handling, callbacks, and implementing the observer pattern. 
+      They provide a way to decouple the sender of an event from the receiver, allowing for more flexible and maintainable code.
+   
+   -> In C#, you can define a delegate using the delegate keyword, and then create instances of the delegate to reference specific methods. 
+      You can also use lambda expressions or anonymous methods to create delegates inline without defining a separate method.
+   
+   -> Type of Delagates :
+       - Single-cast delegates: These delegates can reference a single method at a time. When invoked, they call the method they reference.
+       - Multi-cast delegates: These delegates can reference multiple methods. When invoked, they call all the methods they reference in order.
+
+
 ==========================================================> Serialization || Deserialization <====================================================
 
 
@@ -189,3 +205,8 @@ we have types of attributes :
    
    process vs thread : A process is an independent program with its own memory space, while a thread is a smaller unit of execution within a process that shares the same memory space.
 
+   Thread Synchronization : Thread synchronization is the coordination of multiple threads to ensure that they access shared resources in a controlled manner
+                           -> Race conditions can occur when multiple threads access shared resources simultaneously, leading to unpredictable behavior.
+                           -> Common synchronization techniques include locks, mutexes, semaphores, and monitors.
+ Task class : The Task class in C# is part of the System.Threading.Tasks namespace and provides a way to represent asynchronous operations. 
+             It allows you to create and manage tasks that can run concurrently, making it easier to write responsive and efficient code.
