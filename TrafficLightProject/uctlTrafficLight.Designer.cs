@@ -1,6 +1,6 @@
-﻿namespace TrafficLightProjectIdea
+﻿namespace TrafficLightProject
 {
-    partial class UserControl__Traffic_Light
+    partial class uctlTrafficLight
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,39 +29,38 @@
         private void InitializeComponent()
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Counter = new System.Windows.Forms.Label();
+            this.TraffickCounter = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::TrafficLightProjectIdea.Properties.Resources.Green;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -9);
+            this.pictureBox1.Image = global::TrafficLightProject.Properties.Resources.Red;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 296);
+            this.pictureBox1.Size = new System.Drawing.Size(122, 300);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // Counter
+            // TraffickCounter
             // 
-            this.Counter.AutoSize = true;
-            this.Counter.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Counter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.Counter.Location = new System.Drawing.Point(32, 296);
-            this.Counter.Name = "Counter";
-            this.Counter.Size = new System.Drawing.Size(37, 39);
-            this.Counter.TabIndex = 1;
-            this.Counter.Text = "0";
+            this.TraffickCounter.AutoSize = true;
+            this.TraffickCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TraffickCounter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.TraffickCounter.Location = new System.Drawing.Point(35, 304);
+            this.TraffickCounter.Name = "TraffickCounter";
+            this.TraffickCounter.Size = new System.Drawing.Size(40, 42);
+            this.TraffickCounter.TabIndex = 1;
+            this.TraffickCounter.Text = "0";
             // 
-            // UserControl__Traffic_Light
+            // uctlTrafficLight
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Counter);
+            this.Controls.Add(this.TraffickCounter);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "UserControl__Traffic_Light";
-            this.Size = new System.Drawing.Size(113, 341);
-            this.Load += new System.EventHandler(this.UserControl__Traffic_Light_Load);
+            this.Name = "uctlTrafficLight";
+            this.Size = new System.Drawing.Size(123, 364);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -71,6 +70,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label Counter;
+        private System.Windows.Forms.Label TraffickCounter;
     }
 }

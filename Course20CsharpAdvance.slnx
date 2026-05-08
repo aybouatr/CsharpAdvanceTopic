@@ -31,7 +31,7 @@
   <Project Path="TaskFactory/TaskFactorY.csproj" Id="5cbaba18-960f-45b3-9428-f1d10907abde" />
   <Project Path="TaskRun/TaskRun.csproj" Id="5ffd76b6-21df-4a9e-a5af-d8815680eaac" />
   <Project Path="ThreadSynchronization/ThreadSynchronization.csproj" Id="b8df3dde-f4db-4f44-a2de-b2b4dbaf949e" />
-  <Project Path="TrafficLightProjectIdea/TrafficLightProjectIdea.csproj" Id="15cf40ce-59c0-43a3-87bc-2dfc80b8f015" />
+  <Project Path="TrafficLightProject/TrafficLightProject.csproj" Id="b1fe551c-9a34-48cf-8435-5ed779e06285" />
   <Project Path="using/UsingStatement.csproj" Id="354b67c4-14f7-46f4-8a31-34712b6f9e41" />
   <Project Path="usingTcpClient/usingTcpClient.csproj" Id="5b4ce140-9b97-4a8e-8395-da2585e72edb" />
   <Project Path="WindowsRegistry/WindowsRegistry.csproj" Id="f7db3d53-c60b-4cac-a7dc-b07373079eb0" />

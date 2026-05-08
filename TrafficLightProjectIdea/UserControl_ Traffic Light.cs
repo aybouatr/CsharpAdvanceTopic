@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,10 +18,12 @@ namespace TrafficLightProjectIdea
             Green,
             Yellow,
             Red
+
         }
 
-        static public Timer CounterTime;
-
+        static private Timer CounterTime;
+       
+        public int counter;
         public Color CurrentColor { get;  set; }
 
         public int LightGreenTime { get; set; }
@@ -35,7 +38,9 @@ namespace TrafficLightProjectIdea
             InitializeComponent();
         }
 
-        private int GetRightColor(Color color)
+
+
+        private int GetRightTime(Color color)
         {
             switch (color)
             {
@@ -49,20 +54,41 @@ namespace TrafficLightProjectIdea
                     throw new ArgumentException("Invalid color");
             }
         }
+       
+      
 
-        public  void StartTrafficLight()
+
+
+        private Color GetNextColor(Color current, Color previous)
         {
-            //while (true)
-            //{
-                 RunLight(CurrentColor, GetRightColor(CurrentColor));
-                
-            //}
+            switch (current)
+            {
+                case Color.Green:
+                    return Color.Yellow;
+                case Color.Yellow:
+                    return Color.Red;
+                case Color.Red:
+                    return Color.Green;
+                default:
+                    throw new ArgumentException("Invalid color");
+            }
+        }
+
+        public async Task StartTrafficLight()
+        {
+            while (true)
+            {
+                Color previous = CurrentColor;
+                await  RunLight(CurrentColor, GetRightTime(CurrentColor));
+                CurrentColor = GetNextColor(CurrentColor, previous);
+          
+            }
         }
 
         private async Task RunLight(Color color, int duration)
         {
-           
-           switch (color)
+            RedLightClicked?.Invoke(this, EventArgs.Empty);
+            switch (color)
             {
                 case Color.Green:
                     pictureBox1.Image = Properties.Resources.Green;
@@ -83,9 +109,10 @@ namespace TrafficLightProjectIdea
                  RedLightClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        private void UserControl__Traffic_Light_Load(object sender, EventArgs e)
+        private async void UserControl__Traffic_Light_Load(object sender, EventArgs e)
         {
-            //StartTrafficLight();
+             await StartTrafficLight();
+            
         }
     }
 }
