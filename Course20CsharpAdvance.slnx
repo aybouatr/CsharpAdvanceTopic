@@ -21,6 +21,7 @@
   <Project Path="Nullable/Nullable.csproj" Id="30573b35-77c5-4916-b64f-13c1368a2b43" />
   <Project Path="OverrloadingOperator/OverrloadingOperator.csproj" Id="5d2bc520-abb4-414d-b58a-63aaea468645" />
   <Project Path="ParallelForMultitreading/ParallelForMultitreading.csproj" Id="3cc55261-9996-4eaf-ad1d-a7150bae5edb" />
+  <Project Path="PoolClub/PoolClub.csproj" Id="6f300f7c-d940-4fde-b15f-5f5c4f125611" />
   <Project Path="PredicateDelegate/PredicateDelegate.csproj" Id="cfea77a1-b6e8-4ae4-8b62-b490f293f8f9" />
   <Project Path="Reflection/Reflection.csproj" Id="85a93fc2-92a1-422f-b337-e7bf2f9eb38a" />
   <Project Path="ReflectionwithCustomAttributes/ReflectionwithCustomAttributes.csproj" Id="8769011f-5ed5-4520-9916-8c7d71ac2e37" />
